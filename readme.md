@@ -4,7 +4,7 @@ This is [my XML Catalog](https://github.com/darcyparker/xmlcatalog)
 with many DTDs, XML Schemas and Relax NG schemas collected from numerous sources
 on the internet.
 
-For more info on xml catalog's see:
+For more info on xml catalogs see:
 
 * [Wikipedia - XML Catalog](https://en.wikipedia.org/wiki/XML_Catalog)
 * [Why use XML catalogs](http://www.sagehill.net/docbookxsl/Catalogs.html)
