@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN" "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
+<catalog
+  xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog"
+  prefer="system">
+
+  <group prefer="system">
+
+    <!--http://www.gupro.de/GXL/ -->
+    <system
+      systemId="http://www.gupro.de/GXL/gxl-1.0.dtd"
+      uri="gxl-1.0.dtd"/>
+    <uri
+      name="http://www.gupro.de/GXL/gxl-1.0.dtd"
+      uri="gxl-1.0.xsd"/>
+
+    <system
+      systemId="http://www.gupro.de/GXL/gxl-1.1.dtd"
+      uri="gxl-1.1.dtd"/>
+    <system
+      systemId="http://www.gupro.de/GXL/gxl-1.1_attribute.dtd"
+      uri="gxl-1.1_attribute.dtd"/>
+    <system
+      systemId="http://www.gupro.de/GXL/gxl-1.1_graph.dtd"
+      uri="gxl-1.1_graph.dtd"/>
+
+  </group>
+</catalog>
