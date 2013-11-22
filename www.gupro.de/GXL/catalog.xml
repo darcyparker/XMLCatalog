@@ -25,10 +25,19 @@
       uri="gxl-1.1_graph.dtd"/>
 
     <!--Note: gxl-1.0.xsd does not seem to validate as valid XMLSchema-->
-          <!--It uses http://www.w3.org/2000/10/XMLSchema-->
-          <!--I tried changing it to:-->
-          <!--http://www.w3.org/2001/XMLSchema-->
-          <!--However it has some issues with validation against XMLSchema.xsd-->
+    <!--      It uses http://www.w3.org/2000/10/XMLSchema-->
+    <!--      I tried changing it to:-->
+    <!--      http://www.w3.org/2001/XMLSchema-->
+    <!--      However it has some issues with validation against XMLSchema.xsd-->
+    <!--      [schemavalidate-xmlcatalog] XMLCatalog/www.gupro.de/GXL/gxl-1.0.xsd:42:83: cvc-enumeration-valid: Value 'default' is not facet-valid with respect to enumeration '[prohibited, optional, required]'. It must be a value from the enumeration.-->
+    <!--      [schemavalidate-xmlcatalog] XMLCatalog/www.gupro.de/GXL/gxl-1.0.xsd:42:83: cvc-attribute.3: The value 'default' of attribute 'use' on element 'xsd:attribute' is not valid with respect to its type, 'null'.-->
+    <!--      [schemavalidate-xmlcatalog] XMLCatalog/www.gupro.de/GXL/gxl-1.0.xsd:42:83: cvc-complex-type.3.2.2: Attribute 'value' is not allowed to appear in element 'xsd:attribute'.-->
+    <!--      [schemavalidate-xmlcatalog] XMLCatalog/www.gupro.de/GXL/gxl-1.0.xsd:43:86: cvc-enumeration-valid: Value 'default' is not facet-valid with respect to enumeration '[prohibited, optional, required]'. It must be a value from the enumeration.-->
+    <!--      [schemavalidate-xmlcatalog] XMLCatalog/www.gupro.de/GXL/gxl-1.0.xsd:43:86: cvc-attribute.3: The value 'default' of attribute 'use' on element 'xsd:attribute' is not valid with respect to its type, 'null'.-->
+    <!--      [schemavalidate-xmlcatalog] XMLCatalog/www.gupro.de/GXL/gxl-1.0.xsd:43:86: cvc-complex-type.3.2.2: Attribute 'value' is not allowed to appear in element 'xsd:attribute'.-->
+    <!--      [schemavalidate-xmlcatalog] XMLCatalog/www.gupro.de/GXL/gxl-1.0.xsd:44:88: cvc-enumeration-valid: Value 'default' is not facet-valid with respect to enumeration '[prohibited, optional, required]'. It must be a value from the enumeration.-->
+    <!--      [schemavalidate-xmlcatalog] XMLCatalog/www.gupro.de/GXL/gxl-1.0.xsd:44:88: cvc-attribute.3: The value 'default' of attribute 'use' on element 'xsd:attribute' is not valid with respect to its type, 'null'.-->
+    <!--      [schemavalidate-xmlcatalog] XMLCatalog/www.gupro.de/GXL/gxl-1.0.xsd:44:88: cvc-complex-type.3.2.2: Attribute 'value' is not allowed to appear in element 'xsd:attribute'.-->
 
   </group>
 </catalog>
