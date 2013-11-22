@@ -8,7 +8,10 @@
 
     <public
       publicId="-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN"
-      uri="catalog.dtd"/>
+      uri="1.0/catalog.dtd"/>
+    <public
+      publicId="-//OASIS//DTD XML Catalogs V1.1//EN"
+      uri="1.1/catalog.dtd"/>
 
   </group>
 
