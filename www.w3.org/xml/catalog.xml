@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN" "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
+<!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.1//EN" "http://www.oasis-open.org/committees/entity/release/1.1/catalog.dtd">
 <catalog
   xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog"
   prefer="system">
 
   <group prefer="public">
-    <uri
-      name="http://www.w3.org/XML/1998/namespace"
+
+    <system
+      systemId="http://www.w3.org/2001/xml.xsd"
       uri="xml.xsd"/>
+    <systemSuffix systemIdSuffix="xml.xsd"
+       uri="xml.xsd"/>
+
   </group>
 
 </catalog>
