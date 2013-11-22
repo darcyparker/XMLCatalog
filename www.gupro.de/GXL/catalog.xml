@@ -24,5 +24,11 @@
       systemId="http://www.gupro.de/GXL/gxl-1.1_graph.dtd"
       uri="gxl-1.1_graph.dtd"/>
 
+    <!--Note: gxl-1.0.xsd does not seem to validate as valid XMLSchema-->
+          <!--It uses http://www.w3.org/2000/10/XMLSchema-->
+          <!--I tried changing it to:-->
+          <!--http://www.w3.org/2001/XMLSchema-->
+          <!--However it has some issues with validation against XMLSchema.xsd-->
+
   </group>
 </catalog>
