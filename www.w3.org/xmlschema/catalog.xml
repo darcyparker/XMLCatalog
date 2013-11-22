@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN" "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
+<!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.1//EN" "http://www.oasis-open.org/committees/entity/release/1.1/catalog.dtd">
 <catalog
   xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog"
   prefer="system">
@@ -9,12 +9,6 @@
     <public
       publicId="-//W3C//DTD XMLSCHEMA 200102//EN"
       uri="XMLSchema.dtd"/>
-    <public
-      publicId="datatypes"
-      uri="datatypes.mod"/>
-    <uri
-      name="http://www.w3.org/2001/XMLSchema"
-      uri="XMLSchema.xsd"/>
 
   </group>
 
